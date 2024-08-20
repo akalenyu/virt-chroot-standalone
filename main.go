@@ -69,7 +69,6 @@ func main() {
 			}
 
 			if memoryBytes > 0 {
-				_, _ = fmt.Fprintf(os.Stderr, "memoryBytes: %d\n", memoryBytes)
 				value := &syscall.Rlimit{
 					Cur: memoryBytes,
 					Max: memoryBytes,
