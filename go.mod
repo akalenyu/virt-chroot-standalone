@@ -1,10 +1,10 @@
 module github.com/akalenyu/virt-chroot-standalone
 
-go 1.22.2
+go 1.22.6
 
 require (
-	github.com/spf13/cobra v1.8.1
-	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8
+	github.com/spf13/cobra v1.7.0
+	golang.org/x/sys v0.20.0
 )
 
 require (
